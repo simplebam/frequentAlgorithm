@@ -128,9 +128,9 @@ public class MyTree {
                 root = succeessor;
             } else {
                 if (isLeftChild) {
-                    parent.leftChild = current.leftChild;
+                    parent.leftChild = succeessor;
                 } else {
-                    parent.rightChild = current.leftChild;
+                    parent.rightChild =succeessor;
                 }
             }
 
@@ -189,7 +189,7 @@ public class MyTree {
             }
 
             if (current == null) {
-                return null;
+                break;
             }
         }
 
