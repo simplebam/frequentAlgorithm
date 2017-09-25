@@ -132,10 +132,7 @@ public class FirstLastLinkList {
         }
         int lenght = 0;
         Node current = first;
-        while (current.data != value) {
-            if (current == null) {
-                return -1;
-            }
+        while (current != null && current.data != value) {
             lenght++;
             current = current.next;
         }
