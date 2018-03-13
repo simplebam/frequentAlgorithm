@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70d166f-065c-4cd1-8cbf-1d96c991f657" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/ch02/BubbleSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/ch02/InsertSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/ch02/SelectionSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/ch02/Test.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -20,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="219">
-                <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <first_editor relative-caret-position="272">
+                <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -43,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/ch02/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -109,9 +104,9 @@
         <option value="$PROJECT_DIR$/src/base/ch01/exam.java" />
         <option value="$PROJECT_DIR$/src/base/ch02/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/base/ch02/InsertSort.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/base/ch02/Test.java" />
         <option value="$PROJECT_DIR$/src/base/ch02/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -394,7 +389,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520815994346</updated>
       <workItem from="1520815997478" duration="8879000" />
-      <workItem from="1520904358910" duration="5395000" />
+      <workItem from="1520904358910" duration="5582000" />
     </task>
     <task id="LOCAL-00001" summary="实现了数组的结构以及常用考题">
       <created>1520826208958</created>
@@ -403,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520826208958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现了简单排序(冒泡、插入、选择)">
+      <created>1520910268573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520910268573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14274000" />
+    <option name="totallyTimeSpent" value="14461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -452,7 +454,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="实现了数组的结构以及常用考题" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了数组的结构以及常用考题" />
+    <MESSAGE value="实现了简单排序(冒泡、插入、选择)" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了简单排序(冒泡、插入、选择)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -534,17 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/ch02/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -558,6 +550,17 @@
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
